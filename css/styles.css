@@ -1,3 +1,29 @@
 body{
-  background-color: darkslategray;
+  background-color:violet;
+}
+
+.one{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.span{
+color: yellow;
+}
+
+.two{
+  border: 2px solid white;
+  padding: 6px;
+  margin: 20px;
+  background-color: gray;
+}
+
+.three {
+  width: 30%;
+  float: right;
+  background-color: yellow;
+}
+
+img {
+  float: left;
 }
