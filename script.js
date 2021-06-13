@@ -15,3 +15,21 @@ function calculateDayValue(){
   console.log(d);
   return (Math.floor(d));
 }
+function output() {
+  var year = document.getElementById("year").value;
+  var yy = parseInt(year);
+  var month = document.getElementById("month").value;
+  var mm = parseInt(month);
+  var day = document.getElementById("day").value;
+  var dd = parseInt(day);
+  var cc = (yy - 1) / 100 + 1;
+  var days = [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+  ];
+}
