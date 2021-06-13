@@ -11,6 +11,10 @@ There are no known bugs in this website but if you find one please inform me.
 ## Technologies Used
 I used HTML and CSS. I also used Javascript and bootstrap. 
 Website is written in HTML and styled with CSS.
+## Behavior Driven Development
+1-Displays form for entering Date and Gender.
+2-Displays an error message if date input left empty.
+3-Displays an error message if gender not chosen.
 ## Support and contact details
 If you run into any issue or have any question, idea or concerns please feel free to email me at keithkaykay@yahoo.com.
 You can also contact me if you want to make any contribution to my code.
@@ -690,7 +694,6 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
-
 
 
 

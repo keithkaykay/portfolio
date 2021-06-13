@@ -5,6 +5,7 @@ body{
 .one{
   text-align: center;
   text-decoration: underline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .span{
@@ -25,5 +26,10 @@ color: yellow;
 }
 
 img {
-  float: left;
+  max-width: 66%;
+  height: auto;
+}
+
+.four{
+  float: right;
 }
