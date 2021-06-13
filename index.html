@@ -29,14 +29,14 @@
         <form>
           <div class="7">
             <label for="Year">Which year were you born?</label><br>
-            <input type="number" id="year"><br><br>
+            <input type="number" id="year" placeholder="Year (eg 1993)" required><br><br>
             <label for="Month">Which month were you born?</label><br>
-            <input type="number" id="month"><br><br>
+            <input type="number" id="month" placeholder="Month in digits (eg 3 for March)" required><br><br>
             <label for="Date">Which date were you born?</label><br>
-            <input type="number" id="date"><br><br>
+            <input type="number" id="date" placeholder="Day (eg 13)" required><br><br>
             <input type="radio" name="gender" id="gender" value="male" /> Male <br>
             <input type="radio" name="gender" id="gender" value="female" /> Female<br><br>
-            <input type="submit" value="Submit"><br><br>
+            <input type="submit" value="Submit" onclick="output()"><br><br>
           </div>
 
         </form>
