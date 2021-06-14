@@ -22,13 +22,18 @@
       to the day in the week they were born.
     </p>
 
+      <div class="container-fluid">
+        <div class="ten">
+          <h3> <strong> <em> Your Akan Name Is:</em> </strong> </h3>
+          <p id="display"></p>
+        </div>
+      </div>
     <div class="container-fluid">
       <div class="six">
-        <h3> <strong> <em> Enter your birthday here</em> </strong> </h3>
-        <form>
+        
           <div class="7">
             <label class="nine" for="Year"> Which year were you born?</label><br>
-            <input type="number" id="year" min="0" max="2021" required><br><br>
+            <input type="number" id="year" min="1900" max="2021" required><br><br>
             <label class="nine" for="Month">Which month were you born?</label><br>
             <input type="number" id="month" min="1" max="12" required><br><br>
             <label class="nine" for="Date">Which date were you born?</label><br>
@@ -36,12 +41,11 @@
             <label class="nine" for="Gender">Gender</label><br>
             <input type="radio" name="gender" id="gender" value="male" checked required/> Male <br>
             <input type="radio" name="gender" id="gender" value="female" required/> Female<br><br>
-            <input type="submit" value="Get Your Akan Name" onclick="myFunction()" class="btn btn-primary"> 
-            <button type="reset" class="btn btn-outline-info btn-lg">Reset</button><br><br>
-            <p id="results"></p>
+            <input type="submit" value="Get Your Akan Name" onclick="myFunction()" class="btn btn-primary">
+            <button class="btn btn-primary" onClick="window.location.reload();">Again</button><br><br>
+
           </div>
 
-        </form>
       </div>
     </div>
     <img class="four"  src="img/akan3.png" alt="akan image">
