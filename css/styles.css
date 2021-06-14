@@ -50,14 +50,14 @@ img {
 }
 .ten{
   background-color: chartreuse;
-  font-family:'Tangerine', cursive;
+  font-family:'Times New Roman', Times;
   margin-left: 26%;
   margin-right: 18%;
   opacity: 1.5;
   border-radius: 10px;
 }
 #display{
-  font-size: 40px;
+  font-size: 28px;
   font-family:'Tangerine', cursive;
 }
 
