@@ -43,5 +43,7 @@ img {
 }
 
 .eight{
-  text-decoration: navy;
+  color: black;
+  background-color: gray;
+  float: left;
 }
