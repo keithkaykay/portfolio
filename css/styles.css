@@ -60,3 +60,9 @@ img {
   font-size: 40px;
   font-family:'Tangerine', cursive;
 }
+
+.eleven{
+  background-color: cornflowerblue;
+  border-radius: 20%;
+  opacity: 1.5;
+}

@@ -7,16 +7,16 @@ function myFunction() {
     var dd = parseInt(day);
     var cc = (yy - 1) / 100 + 1;
     var days = [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
+        "Sunday ,",
+        "Monday ,",
+        "Tuesday ,",
+        "Wednesday ,",
+        "Thursday ,",
+        "Friday ,",
+        "Saturday ,",
     ];
-    var maleName = ["Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame", "Kwasi"];
-    var femaleName = ["Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama", "Akosua"];
+    var maleName = ["Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame","Kwasi"];
+    var femaleName = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
     var birthday = new Date(mm + "/" + dd + "/" + yy);
     var dayOfTheWeek = birthday.getDay();
     var result =parseInt(cc / 4 - 2 * cc - 1 + (5 * yy) / 4 + (26 * (mm + 1)) / 10 + dd) % 7;
@@ -34,60 +34,46 @@ function myFunction() {
         
     } else if (Math.round(result) == 1 && gender === "male") {
         document.getElementById("display").innerHTML =
-            days[dayOfTheWeek] +
             maleName[1];
     } else if (Math.round(result) == 2 && gender === "male") {
         document.getElementById("display").innerHTML =
-            days[dayOfTheWeek] +
             maleName[2];
     } else if (Math.round(result) == 3 && gender === "male") {
         document.getElementById("display").innerHTML =
-            days[dayOfTheWeek] +
             maleName[3];
     } else if (Math.round(result) == 4 && gender === "male") {
         document.getElementById("display").innerHTML =
-            days[dayOfTheWeek] +
             maleName[4];
     } else if (Math.round(result) == 5 && gender === "male") {
         document.getElementById("display").innerHTML =
-            days[dayOfTheWeek] +
             maleName[5];
     } else if (Math.round(result) == 6 && gender === "male") {
         document.getElementById("display").innerHTML =
-            days[dayOfTheWeek] +
             maleName[6];
     } else if (Math.round(result) == 0 && gender === "male") {
         document.getElementById("display").innerHTML =
-            days[dayOfTheWeek] +
             maleName[0];
-    } else if (Math.round(result) == 1 && gender === "female") {
+    } else if (Math.round(result) == 0 && gender === "female") {
         document.getElementById("display").innerHTML =
-            days[dayOfTheWeek] +
             femaleName[1];
     } else if (Math.round(result) == 2 && gender === "female") {
         document.getElementById("display").innerHTML =
-            days[dayOfTheWeek] +
             femaleName[2];
     } else if (Math.round(result) == 3 && gender === "female") {
         document.getElementById("display").innerHTML =
-            days[dayOfTheWeek] +
             femaleName[3];
     } else if (Math.round(result) == 4 && gender === "female") {
         document.getElementById("display").innerHTML =
-            days[dayOfTheWeek] +
             femaleName[4];
     } else if (Math.round(result) == 5 && gender === "female") {
         document.getElementById("display").innerHTML =
-            days[dayOfTheWeek] +
             femaleName[5];
     } else if (Math.round(result) == 6 && gender === "female") {
         document.getElementById("display").innerHTML =
-            days[dayOfTheWeek] +
             femaleName[6];
-    } else if (Math.round(result) == 0 && gender === "female") {
+    } else if (Math.round(result) == 1 && gender === "female") {
         document.getElementById("display").innerHTML =
-            days[dayOfTheWeek] +
-            femaleName[1];
+            femaleName[0];
     } else {
         alert("Fill in all required fields");
     }
