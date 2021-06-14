@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Learn your Akan name</title>
     <script src="script.js"></script>
@@ -27,16 +27,18 @@
         <h3> <strong> <em> Enter your birthday here</em> </strong> </h3>
         <form>
           <div class="7">
-            <label for="Year">Which year were you born?</label><br>
+            <label class="nine" for="Year"> Which year were you born?</label><br>
             <input type="number" id="year" min="0" max="2021" required><br><br>
-            <label for="Month">Which month were you born?</label><br>
+            <label class="nine" for="Month">Which month were you born?</label><br>
             <input type="number" id="month" min="1" max="12" required><br><br>
-            <label for="Date">Which date were you born?</label><br>
+            <label class="nine" for="Date">Which date were you born?</label><br>
             <input type="number" id="date" min="1" max="31" required><br><br>
-            <input type="radio" name="gender" id="gender" value="male" required/> Male <br>
+            <label class="nine" for="Gender">Gender</label><br>
+            <input type="radio" name="gender" id="gender" value="male" checked required/> Male <br>
             <input type="radio" name="gender" id="gender" value="female" required/> Female<br><br>
-            <input type="submit" value="Get Name" onclick="myFunction()" class="btn btn-primary"><br><br>
-            <p id="bella"></p>
+            <input type="submit" value="Get Your Akan Name" onclick="myFunction()" class="btn btn-primary"> 
+            <button type="reset" class="btn btn-outline-info btn-lg">Reset</button><br><br>
+            <p id="results"></p>
           </div>
 
         </form>
